@@ -29,18 +29,18 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
+          <span>Quality</span>
           <span>Help</span>
           <span>Share</span>
-          <span>Carrers</span>
+          <span>Careers</span>
           <span>Testimonials</span>
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
           <span>244-5333-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
+          <span>hello@gourmethaven.com</span>
+          <span>press@gourmethaven.com</span>
+          <span>contact@gourmethaven.com</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>

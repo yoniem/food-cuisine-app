@@ -15,7 +15,7 @@ const Testimonial = () => {
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="John Doe" />
         <p>
-          "Food Cuisine delivers the best food, always on time. I'm never disappointed!"
+          "Gourmet Haven delivers the best food, always on time. I'm never disappointed!"
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />

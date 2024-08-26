@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-section">
       <img src={FoodImage} alt="Restaurant Food" className="home-image" />
       <div className="home-text">
-        <h1>Welcome to Food Cuisine</h1>
+        <h1>Welcome to Gourmet Haven</h1>
         <p>
           Discover our menu filled with fresh, delicious, and mouth-watering meals, crafted to satisfy your taste buds.
         </p>
