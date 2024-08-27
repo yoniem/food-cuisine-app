@@ -1,33 +1,42 @@
+/* App.css */
+
+/* General Styles */
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Header */
 header {
   background-color: #282c34;
   padding: 20px;
   color: white;
 }
 
+/* Navbar */
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #333;
-  color: white;
   padding: 10px;
+  color: white;
 }
 
 .navbar .logo {
   font-size: 24px;
+  font-weight: bold;
 }
 
 .nav-links {
   list-style: none;
+  margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-}
-
-.nav-links li {
-  margin: 0 15px;
+  gap: 15px;
 }
 
 .nav-links a {
@@ -36,18 +45,24 @@ header {
   font-size: 18px;
 }
 
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
 .home-section {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 20px;
+  background-color: #f4f4f4;
+  padding: 50px 20px;
 }
 
 .home-image {
-  width: 100%;
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .home-text {
@@ -59,37 +74,22 @@ header {
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
+.primary-button:hover {
+  background-color: #e55342;
+}
+
+/* Work Section */
 .work-section-wrapper {
   padding: 20px;
 }
 
 .work-section-top {
   margin-bottom: 20px;
-}
-
-.work-section-bottom {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.work-section-info {
-  width: 30%;
-  margin: 10px;
-  text-align: center;
-}
-
-.info-boxes-img-container img {
-  width: 100px;
-  height: 100px;
-}
-
-.testimonial-section-bottom {
-  margin-top: 20px;
 }
 
 .primary-subheading {
@@ -107,37 +107,92 @@ header {
   color: #777;
 }
 
+/* Menu Section */
 .menu-section {
   padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  background-image: url('../Assets/menu-background.jpg'); /* Placeholder background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .menu-item {
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 220px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .menu-item h2 {
-  margin: 0;
-  font-size: 24px;
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
 }
 
 .menu-item p {
+  font-size: 16px;
+  color: #777;
   margin: 5px 0;
 }
 
-.subscription-section {
-  padding: 20px;
+.menu-item .price {
+  font-size: 18px;
+  color: #ff6347;
+  font-weight: bold;
 }
 
-.subscription-form {
+/* Contact Section */
+.contact-section {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-form {
   max-width: 600px;
   margin: 0 auto;
 }
 
-.subscription-form input,
-.subscription-form button {
-  padding: 10px;
-  margin: 5px 0;
+.contact-form input,
+.contact-form textarea {
   width: 100%;
-  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e55342;
+}
+
+/* General */
+button {
+  font-family: Arial, sans-serif;
 }

@@ -15,6 +15,15 @@ const Navbar = () => {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+        <li>
+          <Link to="/menu">Menu</Link>
+        </li>
+        <li>
+          <Link to="/delivery">Delivery</Link>
+        </li>
+        <li>
+          <Link to="/subscription">Subscription</Link>
+        </li>
       </ul>
     </nav>
   );
