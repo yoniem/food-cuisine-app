@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/food-cuisine-app/static/css/main.614cc0fb.css",
-    "main.js": "/food-cuisine-app/static/js/main.3bbbf443.js",
+    "main.js": "/food-cuisine-app/static/js/main.4021ddb5.js",
     "static/js/453.aff7f2a1.chunk.js": "/food-cuisine-app/static/js/453.aff7f2a1.chunk.js",
     "index.html": "/food-cuisine-app/index.html",
     "main.614cc0fb.css.map": "/food-cuisine-app/static/css/main.614cc0fb.css.map",
-    "main.3bbbf443.js.map": "/food-cuisine-app/static/js/main.3bbbf443.js.map",
+    "main.4021ddb5.js.map": "/food-cuisine-app/static/js/main.4021ddb5.js.map",
     "453.aff7f2a1.chunk.js.map": "/food-cuisine-app/static/js/453.aff7f2a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.614cc0fb.css",
-    "static/js/main.3bbbf443.js"
+    "static/js/main.4021ddb5.js"
   ]
 }
