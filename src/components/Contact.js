@@ -2,20 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="contact-section">
+    <div className="contact">
       <h2>Contact Us</h2>
-      <form>
-        <label htmlFor="name">Your Name</label>
-        <input type="text" id="name" name="name" value="Yonela" readOnly />
-
-        <label htmlFor="email">Your Email</label>
-        <input type="email" id="email" name="email" value="yonimphini@gmail.com" readOnly />
-
-        <label htmlFor="message">Your Message</label>
-        <textarea id="message" name="message" placeholder="Leave us a message, and we'll get back to you as soon as possible." />
-
-        <button type="submit">Send</button>
-      </form>
+      <p>If you have any questions, feel free to reach out to us!</p>
+      <p>Email: contact@gourmethaven.com</p>
+      <p>Phone: (123) 456-7890</p>
+      {/* Optionally, add a contact form */}
     </div>
   );
 };

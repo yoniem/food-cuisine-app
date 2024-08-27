@@ -1,0 +1,26 @@
+/* App.css or Work.css */
+
+.work-section-info {
+    text-align: center;
+    color: #333;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .work-section-info img {
+    width: 100%; /* Ensure images are responsive */
+    max-width: 300px; /* Limit maximum width */
+  }
+  
+  .work-section-info:hover {
+    background-color: #f4f4f4; /* Light background on hover */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .work-section-info h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  
+  .work-section-info p {
+    font-size: 1em;
+  }

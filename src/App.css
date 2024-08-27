@@ -1,33 +1,143 @@
 .App {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-  }
-  
-  .work-section-wrapper {
-    padding: 20px;
-  }
-  
-  .testimonial-section-bottom {
-    margin-top: 20px;
-  }
-  
-  .primary-subheading {
-    font-size: 20px;
-    color: #ff6347;
-  }
-  
-  .primary-heading {
-    font-size: 36px;
-    color: #333;
-  }
-  
-  .primary-text {
-    font-size: 16px;
-    color: #777;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.home-text {
+  margin-left: 20px;
+}
+
+.primary-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.work-section-wrapper {
+  padding: 20px;
+}
+
+.work-section-top {
+  margin-bottom: 20px;
+}
+
+.work-section-bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.work-section-info {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.info-boxes-img-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.testimonial-section-bottom {
+  margin-top: 20px;
+}
+
+.primary-subheading {
+  font-size: 20px;
+  color: #ff6347;
+}
+
+.primary-heading {
+  font-size: 36px;
+  color: #333;
+}
+
+.primary-text {
+  font-size: 16px;
+  color: #777;
+}
+
+.menu-section {
+  padding: 20px;
+}
+
+.menu-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.menu-item h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.menu-item p {
+  margin: 5px 0;
+}
+
+.subscription-section {
+  padding: 20px;
+}
+
+.subscription-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.subscription-form input,
+.subscription-form button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}

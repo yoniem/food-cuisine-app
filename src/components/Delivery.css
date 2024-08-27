@@ -1,0 +1,14 @@
+.delivery-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .delivery-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .delivery-section li {
+    font-size: 18px;
+    margin: 10px 0;
+  }

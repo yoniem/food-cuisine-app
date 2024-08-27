@@ -2,7 +2,7 @@
   "name": "food-cuisine-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yonem.github.io/food-cuisine-app", 
+  "homepage": "https://yonem.github.io/food-cuisine-app",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
@@ -19,8 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

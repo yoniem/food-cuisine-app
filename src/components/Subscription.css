@@ -1,0 +1,19 @@
+.subscription-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .subscription-plan {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subscribe-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }  
